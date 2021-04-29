@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Technologies from './components/Technologies';
+import Colors from './components/Colors';
+import Subscribe from './components/Subscribe';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Technologies/>
+      <br/>
+      <br/>
+      <Colors/>
+      <br/>
+      <br/>
+      <Subscribe/>
     </div>
   );
 }
